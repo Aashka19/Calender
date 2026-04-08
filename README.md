@@ -31,4 +31,26 @@ A modern calendar built with React + Vite that shows each month with a flip anim
 - date-fns
 - Framer Motion
 
+## 🚀 Run Locally
+
+Follow these steps to run the project on your machine:
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Aashka19/Calender.git
+cd Calender
+```
+### 2. Install dependencies
+```bash
+npm install
+```
+### 3. Start the development server
+```bash
+npm run dev
+```
+### 4. Open in browser
+Go to:
+http://localhost:5173 ↗
+
 
