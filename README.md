@@ -1,18 +1,34 @@
-# React + Vite
+## Calendar 📅
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern calendar built with React + Vite that shows each month with a flip animation and a side panel to add events/notes (including recurring events). Events are saved in the browser using `localStorage`.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Monthly calendar view** with smooth **flip animation** (Framer Motion)
+- **Month header image** (different image for each month)
+- **Day selection**
+  - Click a day to select it
+  - Shift + click to select a range (highlight only)
+- **Events & Notes panel (right side) 📝**
+  - Click **+** to open a dropdown composer
+  - Add **start/end date**, **title**, **notes**
+  - **Edit** and **delete** existing events
+- **Recurring events ⏱️** 
+  - Repeat: **Daily / Weekly / Monthly**
+  - Choose **Repeat Until** date
+- **Event indicator on calendar ⭐️**
+  - A small **★ star** appears next to dates that have events
+- **Persistent storage**
+  - Events are stored in `localStorage` under key: `calendarEvents:v1`
+- **Responsive 📱💻**
+  - Desktop: calendar + events side-by-side
+  - Mobile: stacks vertically for better fit
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+- React
+- Vite
+- date-fns
+- Framer Motion
 
-Note: This will impact Vite dev & build performances.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
