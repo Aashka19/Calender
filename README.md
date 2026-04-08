@@ -53,4 +53,10 @@ npm run dev
 Go to:
 http://localhost:5173 ↗
 
+## 🎥 Demo Video
+
+A quick walkthrough of the calendar features (flip animation, events, UI):
+
+🔗 [Watch Demo Video](https://drive.google.com/drive/folders/1Pbrx68pEIlwo59WGbHH41oItJHJaS7Xm?usp=drive_link)
+
 
